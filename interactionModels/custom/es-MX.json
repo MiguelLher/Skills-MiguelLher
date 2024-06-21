@@ -1,0 +1,217 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "SumaIntent",
+          "samples": [
+            "el resultado de {numeroUno} mas {numeroDos}",
+            "Cuál es el resultado de {numeroUno} más {numeroDos} ",
+            "Dime la suma de {numeroUno} y {numeroDos}",
+            "Puedes sumar {numeroUno} y {numeroDos}",
+            "Cuánto es la suma de {numeroUno} más {numeroDos}",
+            "Suma de {numeroUno} y {numeroDos}",
+            "Calcula {numeroUno} más {numeroDos}",
+            "cuanto es {numeroUno} mas {numeroDos}",
+            "Suma {numeroUno} y {numeroDos}",
+            "Suma {numeroUno} mas {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RestaIntent",
+          "samples": [
+            "el resultado de {numeroUno} menos {numeroDos}",
+            "Cuál es el resultado de {numeroUno} menos {numeroDos}",
+            "Dime la resta de {numeroUno} y {numeroDos}",
+            "Puedes restar {numeroUno} y {numeroDos}",
+            "Cuánto es la resta de {numeroUno} menos {numeroDos}",
+            "Calcula {numeroUno} menos {numeroDos}",
+            "Dime el resultado de restar {numeroUno} y {numeroDos}",
+            "cuanto es {numeroUno} menos {numeroDos}",
+            "resta {numeroUno} y {numeroDos}",
+            "resta {numeroUno} menos {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "MultiplicacionIntent",
+          "samples": [
+            "el resultado de {numeroUno} por {numeroDos}",
+            "Cuál es el resultado de {numeroUno} por {numeroDos}",
+            "Dime la multiplicación de {numeroUno} y {numeroDos}",
+            "Puedes multiplicar {numeroUno} y {numeroDos}",
+            "Cuánto es el producto de {numeroUno} por {numeroDos}",
+            "Calcula {numeroUno} por {numeroDos}",
+            "Dime el resultado de multiplicar {numeroUno} y {numeroDos}",
+            "resultado de {numeroUno} por {numeroDos} ",
+            "multiplica {numeroUno} y {numeroDos}",
+            "multiplica {numeroUno} por {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "DivisionIntent",
+          "samples": [
+            "el resultado de {numeroUno} entre {numeroDos}",
+            "resultado de dividir {numeroUno} entre {numeroDos}",
+            "divide {numeroUno} entre {numeroDos}",
+            "Cuál es el resultado de {numeroUno} entre {numeroDos}",
+            "Dime la división de {numeroUno} y {numeroDos}",
+            "Puedes dividir {numeroUno} entre {numeroDos}",
+            "Cuánto es el cociente de {numeroUno} entre {numeroDos}",
+            "Calcula {numeroUno} entre {numeroDos}",
+            "Dime el resultado de dividir {numeroUno} y {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "RaizCuadradaIntent",
+          "samples": [
+            "Cuál es la raíz cuadrada de {numeroUno}",
+            "Calcula la raíz cuadrada de {numeroUno}",
+            "Dime la raíz cuadrada de {numeroUno}",
+            "Raíz cuadrada de {numeroUno}",
+            "Qué es la raíz cuadrada de {numeroUno}",
+            "Encuentra la raíz cuadrada de {numeroUno}",
+            "Dame la raíz cuadrada de {numeroUno}",
+            "Puedes calcular la raíz cuadrada de {numeroUno}",
+            "Qué resulta de la raíz cuadrada de {numeroUno}",
+            "Quiero saber la raíz cuadrada de {numeroUno}",
+            "Me puedes decir la raíz cuadrada de {numeroUno}",
+            "Calcula la raíz de {numeroUno}",
+            "Cuál es el resultado de la raíz cuadrada de {numeroUno}",
+            "Cuánto es la raíz cuadrada de {numeroUno}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "numeroDos",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "PotenciaIntent",
+          "samples": [
+            "Cuál es el resultado de elevar {numeroUno} a la {numeroDos}",
+            "Calcula {numeroUno} elevado a la {numeroDos}",
+            "Dime la potencia de {numeroUno} a la {numeroDos}",
+            "Potencia de {numeroUno} a la {numeroDos}",
+            "Eleva {numeroUno} a la {numeroDos}",
+            "Cuánto es {numeroUno} elevado a la {numeroDos}",
+            "Dime el resultado de {numeroUno} a la {numeroDos}",
+            "Puedes calcular {numeroUno} a la {numeroDos}",
+            "Qué es {numeroUno} a la {numeroDos}",
+            "Quiero saber {numeroUno} elevado a la {numeroDos}",
+            "Calcula la potencia de {numeroUno} a la {numeroDos}",
+            "Cuál es la potencia de {numeroUno} a la {numeroDos}",
+            "Dame el resultado de {numeroUno} a la {numeroDos}",
+            "Puedes decirme {numeroUno} elevado a la {numeroDos}",
+            "Encuentra {numeroUno} elevado a la {numeroDos}"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "numeroUno",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "name": "LogaritmoIntent",
+          "samples": [
+            "Cuál es el logaritmo de {numeroUno}",
+            "Calcula el logaritmo de {numeroUno}",
+            "Dime el logaritmo de {numeroUno}",
+            "Logaritmo de {numeroUno}",
+            "Qué es el logaritmo de {numeroUno}",
+            "Encuentra el logaritmo de {numeroUno}",
+            "Dame el logaritmo de {numeroUno}",
+            "Puedes calcular el logaritmo de {numeroUno}",
+            "Qué resulta del logaritmo de {numeroUno}",
+            "Logaritmo base diez de {numeroUno}",
+            "Quiero saber el logaritmo de {numeroUno}",
+            "Me puedes decir el logaritmo de {numeroUno}",
+            "Calcula el log de {numeroUno}",
+            "Cuál es el resultado del logaritmo de {numeroUno}",
+            "Cuánto es el logaritmo de {numeroUno}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "calculadora miguel"
+    }
+  }
+}

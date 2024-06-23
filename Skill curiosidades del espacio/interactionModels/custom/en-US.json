@@ -1,0 +1,120 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [],
+          "name": "GetSpaceFactIntent",
+          "samples": [
+            "tell me a space fact",
+            "give me a space fact",
+            "a space fact",
+            "I want a space fact",
+            "I want to hear a space fact",
+            "tell me a fact about space",
+            "tell me something about space",
+            "give me a random space fact",
+            "give me a fact about space",
+            "can you tell me a space fact",
+            "do you know any space facts",
+            "tell me an interesting fact about space",
+            "tell me something interesting about space",
+            "I want to know a space fact",
+            "I need a space fact",
+            "give me an interesting fact about space",
+            "tell me a fun space fact",
+            "give me an amazing space fact",
+            "share a space fact",
+            "share an interesting space fact"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "what can I ask you",
+            "what can you do",
+            "how can you help",
+            "what do you do",
+            "what can I do",
+            "assist me",
+            "I need help",
+            "can you help me"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "never mind",
+            "forget it",
+            "stop this",
+            "end this",
+            "quit"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "exit",
+            "end",
+            "halt",
+            "finish",
+            "quit"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "yes",
+            "sure",
+            "okay",
+            "please",
+            "I want to",
+            "alright",
+            "yep",
+            "yeah",
+            "i want another",
+            "give me another fact",
+            "i want anoter fact",
+            "yes i want another fact",
+            "yes give another fact"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no",
+            "no thanks",
+            "not now",
+            "I\u0027m done",
+            "stop",
+            "nope",
+            "not really",
+            "nah"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "I don\u0027t understand",
+            "I didn\u0027t get that",
+            "can you repeat",
+            "can you repeat that",
+            "say that again",
+            "what did you say",
+            "I missed that",
+            "I don\u0027t know"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "space curiosities"
+    }
+  }
+}

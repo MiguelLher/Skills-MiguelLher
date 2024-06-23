@@ -1,0 +1,117 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "slots": [],
+          "name": "GetSpaceFactIntent",
+          "samples": [
+            "dime una curiosidad del espacio",
+            "quiero una curiosidad del espacio",
+            "quiero escuchar una curiosidad del espacio",
+            "una curiosidad del espacio",
+            "dame una curiosidad del espacio",
+            "cuéntame una curiosidad del espacio",
+            "dame un dato sobre el espacio",
+            "puedes decirme una curiosidad del espacio",
+            "sabes alguna curiosidad del espacio",
+            "dime un dato interesante sobre el espacio",
+            "cuéntame algo interesante sobre el espacio",
+            "quiero saber una curiosidad del espacio",
+            "necesito una curiosidad del espacio",
+            "dime una curiosidad divertida del espacio",
+            "dame un dato asombroso sobre el espacio",
+            "comparte una curiosidad del espacio",
+            "compárteme una curiosidad del espacio",
+            "comparte un dato interesante sobre el espacio"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "puedes ayudarme",
+            "necesito ayuda",
+            "qué puedo hacer"
+          ]
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "olvídalo",
+            "no importa",
+            "detén esto",
+            "termina esto",
+            "quitar"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "salir",
+            "terminar",
+            "parar",
+            "finalizar"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "sí",
+            "claro",
+            "vale",
+            "por favor",
+            "quiero",
+            "si dime mas",
+            "dime otro dato curioso",
+            "dime otra curiosidad",
+            "dime otra curiosidad del espacio",
+            "dame otra curiosidad",
+            "dame otra curiosidad del espacio",
+            "quiero saber otro dato",
+            "quiero saber otro dato curioso",
+            "si dame otro dato",
+            "si dame otro dato curioso",
+            "dame otro dato curioso",
+            "sip",
+            "de acuerdo",
+            "sí quiero"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no",
+            "no gracias",
+            "no ahora",
+            "he terminado",
+            "detente",
+            "nope",
+            "mejor no",
+            "no quiero"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": [
+            "no entiendo",
+            "no entendí eso",
+            "puedes repetir",
+            "di eso otra vez",
+            "qué dijiste",
+            "me lo perdí",
+            "no sé"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "curiosidades del espacio"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancelar",
+            "olvídalo",
+            "no importa",
+            "detén esto",
+            "termina esto",
+            "quitar"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "ayuda",
+            "puedes ayudarme",
+            "necesito ayuda",
+            "qué puedo hacer"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "detener",
+            "salir",
+            "terminar",
+            "parar",
+            "finalizar"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "descripcionintent",
+          "samples": [
+            "cual es la descripcion de esta ciudad",
+            "cual es la descripcion de parís",
+            "dame la descripcion de esta ciudad",
+            "dame la descripcion de parís",
+            "dime la descripcion de esta ciudad",
+            "dime la descripcion de parís",
+            "describe esta ciudad",
+            "describe parís",
+            "hablame de parís"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "lugaresturisticosintent",
+          "samples": [
+            "dame lugares turisticos para visitar",
+            "lugares turisticos",
+            "dime lugares turisticos de parís",
+            "que lugares turisticos hay en parís"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "comidatipicaintent",
+          "samples": [
+            "dame las comidas mas tipicas",
+            "las comidas mas conocidas de parís",
+            "dime las comidas tipicas",
+            "dame las comidas tipicas",
+            "comidas tipicas",
+            "cuales son las comidas tipicas",
+            "cuales son las comidas de parís"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "trajetipicointent",
+          "samples": [
+            "me dices los trajes tipicos de parís",
+            "trajes tipicos de parís",
+            "dime los trajes tipicos de parís",
+            "como se visten en parís",
+            "cuales son los trajes tipicos de parís",
+            "dame los trajes tipicos de parís"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "personajesintent",
+          "samples": [
+            "personajes sobresalientes de parís",
+            "quienes son lo personajes sobresalientes de parís",
+            "quienes son lo personajes famosos de parís",
+            "los personajes sobresalientes de esa ciudad",
+            "dime los personajes sobresalientes de parís",
+            "dame los personajes sobresalientes de parís",
+            "personajes conocidos de parís",
+            "personajes famosos de parís"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "musicaintent",
+          "samples": [
+            "dame canciones de parís",
+            "cancion de parís",
+            "musica de parís",
+            "reproduce musica de parís",
+            "pon musica de parís",
+            "dame musica de parís",
+            "reproduce canciones de parís",
+            "reproduce una canción de parís"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "conociendo parís"
+    }
+  }
+}
